@@ -17,7 +17,7 @@ install.packages("miscTools")
 ```
 
 ## Input Data
-* A matrix with each row being the expression of a gene
+* A matrix with each row being the expression of a gene, e.g. microarray or RNAseq data
 
 ## Setup and Usage Example
 1) Clone this repository
@@ -39,3 +39,5 @@ This will generate the following files: ccor.o, ccor.so, mccor.o and mccor.so. W
 
 6) simulation.R and simulation_tom.R are used to perform simulation and generate Table 2 and 3.
 
+## Some tips on processing Microarray data
+Since most of the microarray data are deposited on GEO <a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a>
