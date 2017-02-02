@@ -32,7 +32,10 @@ R CMD SHLIB mccor.c
 This will generate the following files: ccor.o, ccor.so, mccor.o and mccor.so. We suggest using command line instead of RStudio when calculating CCor and mCCor. Since when the number of genes is large, e.g. larger than 1000, a memory error will happen with RStudio.
 
 3) CCor_mCCor.R computes the CCor and mCCor. 
+
 4) Concentration.R computes the derived concentrating value in the concentration inequality.
+
 5) Illustration.R computes the within and between-module concentrating values shown in Inference section of the paper.
+
 6) simulation.R and simulation_tom.R are used to perform simulation and generate Table 2 and 3.
 
