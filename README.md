@@ -35,9 +35,9 @@ This will generate the following files: ccor.o, ccor.so, mccor.o and mccor.so. W
 
 4) Concentration.R computes the derived concentrating value in the concentration inequality.
 
-5) Illustration.R computes the within and between-module concentrating values shown in Inference section of the paper.
+5) Illustration.R computes the within and between-module concentrating values shown in Theoretical Results section of the <a href="https://www.ncbi.nlm.nih.gov/pubmed/26953524">paper</a>.
 
-6) simulation.R and simulation_tom.R are used to perform simulation and generate Table 2 and 3.
+6) simulation.R and simulation_tom.R are used to perform simulation and generate Table 2 and 3 of the <a href="https://www.ncbi.nlm.nih.gov/pubmed/26953524">paper</a>.
 
 ## Some tips on processing Microarray data
 Since most of the microarray data are deposited on <a href="https://www.ncbi.nlm.nih.gov/geo/">GEO</a>, we therefore provide some codes for conveniently querying, processing and transforming data from GEO to the ideal format.
