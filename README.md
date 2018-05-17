@@ -22,7 +22,7 @@ install.packages("miscTools")
 ## Setup and Usage Example
 1) Clone this repository
 ```
-git clone https://github.com/yiminghu/AnnoPred.git
+git clone https://github.com/yiminghu/CCor.git
 ```
 2) Compile the C codes for efficient calculation of CCor and mCCor
 ```
